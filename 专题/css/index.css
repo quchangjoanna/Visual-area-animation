@@ -1,0 +1,73 @@
+body{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+header.Catlogo{margin:0 auto;width:1201px;height:126px;color:#333}
+header.Catlogo p.logo-p{margin-top:20px;margin-bottom:20px;width:84px;height:84px;border:1px solid #eee;border-radius:1pc;text-align:center;line-height:86px}
+.fl,.le{float:left}
+.rt{float:right}
+header.Catlogo i{display:inline-block;width:70px;height:70px;background:url(../images/catLogo.png);vertical-align:middle}
+.Catlogo .kycat{margin-top:29px;margin-left:15px;width:115px}
+.Catlogo .kycat span.ct-box{font-weight:700;font-size:2pc}
+.Catlogo .kycat>span span{font-size:1pc}
+.Catlogo .downLoad-ph{margin-left:55px;height:126px;color:#666;font-size:28px;line-height:126px}
+div.session{position:relative;height:639px}
+div.session-child{position:absolute;top:0;left:0;width:100%;height:100%;background:url(../images/back_02.png) no-repeat top center;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover}
+div.session .main-info{overflow:hidden;box-sizing:border-box;margin:0 auto;padding-top:150px;width:1201px;height:100%;color:#fff;padding-left:13px;}
+.main-info .text-detail{margin-left:170px;}
+.main-info p.ky-t{position:relative;width:242px;color:#fff;font-size:30px}
+.phone-left{float:left}
+.main-info p.ky-t span{position:absolute;top:50%;left:263px;display:inline-block;width:54px;height:29px;border-radius:3px;background:#ff8331;text-align:center;font-size:19.89px;line-height:29px;transform:translateY(-50%)}
+.main-info p.ky-t-big{padding-top:15px;padding-bottom:22px;width:608px;border-bottom:2px solid #fff;font-size:64px;letter-spacing:3.5px}
+.down-type-box{margin-top:60px}
+.down-type-box2{margin-top:24px}
+.down-type-box{width:100%}
+.down-type{position:relative;display:inline-block;width:340px;height:76px;border:1px solid #fff;border-radius:3px;font-size:28px;line-height:76px}
+.down-type i{position:absolute;top:50%;left:28px;display:inline-block;box-sizing:border-box;-webkit-transform:translateY(-50%);transform:translateY(-50%);-ms-transform:translateY(-50%)}
+.down-type span{margin-left:87px;}
+.type-apple i{width:36px;height:44px;background:url(../images/apple-new.png) no-repeat}
+.type-and i{width:39px;height:48px;background:url(../images/andr.png) no-repeat}
+.downloadImg img{margin-top:60px;margin-left:40px;width:180px;height:180px;border-radius:3px}
+.mainconent{margin:0 auto;height:1963px;width:1201px;border-bottom:1px solid #ececec}
+.centcon{margin:0 auto;padding-bottom:70px;width:1000px;column-count:2;column-gap:63px;-moz-column-count:2;-webkit-column-count:2;-moz-column-gap:63px;-webkit-column-gap:63px}
+.centcon .le{padding-top:95px;width:500px;break-inside:avoid;-moz-page-break-inside:avoid;-webkit-column-break-inside:avoid;-webkit-animation-duration:.6s;-webkit-animation-delay:.4s;-webkit-animation-timing-function:ease;-webkit-animation-fill-mode:both;-moz-animation-duration:.6s;-moz-animation-delay:.4s;-moz-animation-timing-function:ease;-moz-animation-fill-mode:both;-ms-animation-duration:.6s;-ms-animation-delay:.4s;-ms-animation-timing-function:ease;-ms-animation-fill-mode:both;animation-duration:.6s;animation-delay:.4s;animation-timing-function:ease;animation-fill-mode:both}
+.centcon .le:nth-child(1){padding-top:250px;padding-bottom:173px}
+.centcon .le:nth-child(2),.centcon .le:nth-child(4),.centcon .le:nth-child(7){padding-top:0}
+.centcon .le:nth-child(3){padding-top:200px;padding-bottom:226px}
+.centcon .le:nth-child(6){padding-top:95px;padding-bottom:153px}
+.centcon .le:nth-child(8){padding-top:142px;padding-bottom:142px}
+.centcon .le h3{color:#333;font-size:34px}
+.centcon .le p{color:#333;font-size:24px;font-family:Helvetica Neue,PingFang SC,Microsoft Yahei,Wenquanyi Micro Hei}
+.list-title{margin:0 auto;margin-top:70px;width:750pt}
+.list-title .li-box{display:-webkit-box;display:-moz-flex;display:-ms-flexbox;display:flex;flex-flow:row;justify-content:space-between}
+.list-title div.li-box div:nth-child(1){padding-top:96px;width:83px;background:url(../images/list1_03.png) no-repeat;text-align:center}
+.list-title div.li-box div:nth-child(2){padding-top:96px;width:124px;background:url(../images/list_2_03.png) no-repeat;text-align:center}
+.list-title div.li-box div:nth-child(3){padding-top:96px;width:87px;background:url(../images/list3_10.png) no-repeat;text-align:center}
+.list-title div.li-box div:nth-child(4){padding-top:96px;width:134px;background:url(../images/list4_12.png) no-repeat;text-align:center}
+.list-title div.li-box span{display:inline-block;margin-top:24px;font-weight:400;font-size:18px}
+.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}
+@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0)}
+to{opacity:1;-webkit-transform:none}
+}
+@keyframes fadeInLeft{0%{opacity:0;transform:translate3d(-100%,0,0)}
+to{opacity:1;transform:none}
+}
+.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}
+@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0)}
+to{opacity:1;-webkit-transform:none}
+}
+@keyframes fadeInRight{0%{opacity:0;transform:translate3d(100%,0,0)}
+to{opacity:1;transform:none}
+}
+.conSchool{margin:0 auto;width:1201px}
+.school{display:-webkit-box;display:-moz-flex;display:-ms-flexbox;display:flex;margin-bottom:90pt;align-items:center;justify-content:space-between}
+.school1{margin-bottom:56px}
+.bt{height:195px;color:#333;text-align:center;line-height:195px;position:relative;}
+.bt .bold{font-weight:400;font-size:40px}
+.bt span{font-size:24px}
+.bt .part-menu{position: absolute;top:52%;transform: translateY(-50%);left:57%;}
+.conSchool li{box-sizing:border-box;padding-top:26px;padding-bottom:25px;width:200px;height:210px;border:1px solid #e7eaf1;border-radius:3px;text-align:center}
+.conSchool li .name{height:76px;font-size:24px;line-height:76px}
+.copy-detail{height:15pc;background:#f3f3f3;color:#000}
+.copy-detail-main{margin:0 auto;width:1201px;height:100%}
+.text-lianxi{width:949px;height:15pc;font-weight:400;font-size:18px;font-family:Helvetica Neue,PingFang SC,Microsoft Yahei,Wenquanyi Micro Hei,sans-serif;line-height:15pc}
+.copy-pic{box-sizing:border-box;padding-top:29px;padding-bottom:29px;height:15pc}
+.copy-pic p{padding-top:1pc;width:150px;text-align:center}
+footer{box-sizing:border-box;padding-top:45px;width:100%;height:150px;background:#333;color:#fff;text-align:center;font-size:14px}
